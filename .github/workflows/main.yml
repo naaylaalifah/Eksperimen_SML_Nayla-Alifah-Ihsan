@@ -30,8 +30,8 @@ jobs:
 
       - name: Commit processed data
         run: |
-          git config --global user.email "github-actions@github.com"
-          git config --global user.name "github-actions"
+          git config --global user.email "naaylaalifah@gmail.com"
+          git config --global user.name "naaylaalifah"
           git add preprocessed_data.csv
           git commit -m "Update preprocessed dataset" || echo "No changes to commit"
           git push
